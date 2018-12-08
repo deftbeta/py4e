@@ -1,0 +1,15 @@
+This server contains an email list.
+
+This server expects a URL of the form:
+
+http://mbox.dr-chuck.net/sakai.devel/4/5
+
+And returns messages in an mbox format.   No more than 10 
+messages can be requested at one time.
+
+There is a copy of this hosted at:
+
+http://mbox.dr-chuck.net/
+
+That is served through CloudFlare and so it should provide
+fast access anywhere in the world.
